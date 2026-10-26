@@ -7,7 +7,7 @@ jobs:
 build:
 runs-on: ubuntu-latest
 steps:
-- name: Checkout project
+- name: Download project
 uses: actions/checkout@v4
 
   - name: Set up Java
